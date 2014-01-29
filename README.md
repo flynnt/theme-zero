@@ -1,4 +1,6 @@
 theme-zero
 ==========
 
-An HTML5 Drupal reset base theme
+**An HTML5 Drupal Reset Base Theme**
+
+
