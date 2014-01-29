@@ -1,0 +1,16 @@
+name = Zero
+description = A reset theme that sets up a project with a cleaner HTML5 doctype and head; and zeros out all Drupal-specific CSS.
+version = 1.0
+core = 7.x
+
+; System and other CSS
+; Drupal will not load what it cannot find.
+; We use this to our advantage to zero things out.
+stylesheets[all][] = assets/styles/override/disable/system.messages.css
+stylesheets[all][] = assets/styles/override/disable/system.menus.css
+stylesheets[all][] = assets/styles/override/disable/system.theme.css
+stylesheets[all][] = assets/styles/override/disable/comment.css
+stylesheets[all][] = assets/styles/override/disable/node.css
+stylesheets[all][] = assets/styles/override/disable/field.css
+stylesheets[all][] = assets/styles/override/disable/search.css
+stylesheets[all][] = assets/styles/override/disable/user.css
